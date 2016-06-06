@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name        R for Reddit
-// @namespace   https://www.reddit.com/
+// @namespace   https://github.com/rayzru/r-for-reddit
+// @match    	http://*reddit.com/*
+// @match	https://*reddit.com/*
+// @version     0.0.1
 // @description A simple Hello World user script
-// @match       http://*.reddit.com/*
-// @version     1.0.0
+// @run-at      document-start
 // @grant       none
 
 // lifted from RES: https://github.com/honestbleeps/Reddit-Enhancement-Suite.git
